@@ -1,6 +1,7 @@
 body {
-    background-color: yellow;
+    background-color: gray;
     text-align: center;
+    cursor: crosshair;
 }
 
 h3{
@@ -8,13 +9,31 @@ h3{
     color: red;
 }
 
-h1{
+h2{
+    font-size: 22px
+}
+
+h1{	
     font-size: 30px;
-		  
+    border-style: dotted;		  
 }
 
 p{
-    border-style: dotted;
-     font-variant: small-caps;
+    
+    font-variant: small-caps;
 }
 
+a{
+    font-size: 20px;
+    color: gold;
+}
+a:hover{
+    font-size: 8px;
+    color:gray;
+}
+
+div{
+    font-size: 12px;
+    transform: rotate(180deg);
+    border: groove thick red;
+}
